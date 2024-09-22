@@ -1,5 +1,3 @@
-// components/SampleOMGrid.tsx
-
 import React from 'react';
 import SampleOMCard from './SampleOMCard';
 import styles from './SampleOMGrid.module.css';

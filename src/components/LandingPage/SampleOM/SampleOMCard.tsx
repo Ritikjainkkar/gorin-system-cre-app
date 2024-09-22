@@ -1,5 +1,3 @@
-// components/SampleOMCard.tsx
-
 import React from 'react';
 import Image from 'next/image';
 import styles from './SampleOMCard.module.css';
@@ -12,7 +10,7 @@ interface SampleOMCardProps {
   buttonText: string;
 }
 
-const SampleOMCard: React.FC<SampleOMCardProps> = ({ image, title, subtitle, description, buttonText }) => {
+const SampleOMCard: React.FC<SampleOMCardProps> = ({ image, title, description, buttonText }) => {
   return (
     <div className={styles.card}>
       <div className={styles.imageContainer}>
